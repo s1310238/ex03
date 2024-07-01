@@ -4,7 +4,7 @@
 #include<unistd.h>
 
 int main(){
-int i;
+int i,rnd;
 int head = 0, tail = 0;
 char name[10];
 
