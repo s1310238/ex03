@@ -31,6 +31,6 @@ for(i=1;i<4;i++){
 
 printf("Heads: %d, Tails: %d\n",head,tail);
 
-    if(head > tail) printf("You won!\n");
-    else printf("You lose!\n");
+    if(head > tail) printf("%s won!\n",name);
+    else printf("%s lose!\n",name);
 }
